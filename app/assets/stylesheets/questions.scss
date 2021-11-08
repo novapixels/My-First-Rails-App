@@ -1,3 +1,31 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+// $palepink: #eee4e9;
+h1 {
+  font-size: 50px;
+}
+
+form {
+  input {
+    padding: 10px;
+    background-color: rgb(255, 236, 194);
+    border: none;
+  }
+}
+a {
+   color: grey;
+   border: 2px solid grey;
+   border-radius: 5px;
+   padding: 8px 10px;
+   text-decoration: none;
+   &:hover {
+     color: black;
+     border: 2px solid black;
+   }
+ }
+
+ h3 {
+   color: darkgreen;
+ }
